@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="Pišite nam, odgovorićemo u Najkraćem roku">
+  <meta name="keywords" content="upit, ime, email,">
+  <meta http-equiv="content-type" content="text/html;" charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="author" content="Jelena Simanic">
+  <meta name="robots" content="" />
+
+	<title>Upit</title>
+  
+  <link href="assets/images/logo1.png" rel="icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo2.png" alt="Bootstrap" width="120" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav">
+          </div>
+        </div>
+        <span id="radnoV">Pon-Pet 08:00-16:00</span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-form">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Pišite nam, odgovorićemo<em> u Najkraćem roku</em></h2>
+            <p>Popunite kratku formu za brze informacije</p>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div class="contact-form">
+            <form name="forma" id="zahtev" action="" method="post">
+              <div class="row">
+                <div class="col">
+                  <span id="upozorenjeIme" class="formaGreska sakrij"></span><br>
+                  <input type="text" id="ime" name="ime" placeholder="Ime i prezime" required>
+                </div>
+                <div class="col">
+                  <span id="upozorenjeEmail" class="formaGreska sakrij"></span><br>
+                  <input type="text" id="email" name="email" placeholder="E-Mail adresa" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <span id="upozorenjeTip" class="formaGreskaTip sakrij">Ovo polje je obavezno!</span><br>
+                  <label class="radio-inline" for="kamion">
+                    <input type="radio" id="kamion" name="tip" value="kamion" required>Kamion
+                  </label>
+                  <label class="radio-inline"for="kombi">
+                    <input type="radio" id="kombi" name="tip" value="kombi">Kombi
+                  </label>
+                </div>
+                <div class="col">
+                  <span id="upozorenjeIz" class="formaGreska sakrij">Ovo polje je obavezno!</span><br>
+                  <select id="iz" name="iz" required>
+                    <option selected disabled>Polazak</option>    
+                    <option value="srbija">Srbija</option>
+                    <option value="italija">Italija</option>
+                    <option value="hrvatska">Hrvatska</option>
+                    <option value="slovenija">Slovenija</option>
+                  </select>
+                </div>
+                <div class="col">
+                  <span id="upozorenjeZa" class="formaGreska sakrij">Ovo polje je obavezno!</span><br>
+                  <select id="za" name="za" required>
+                    <option selected disabled>Destinacija</option>
+                    <option value="srbija">Srbija</option>
+                    <option value="italija">Italija</option>
+                    <option value="hrvatska">Hrvatska</option>
+                    <option value="slovenija">Slovenija</option>
+                  </select>
+                </div>
+              </div> 
+              <div class="row">
+                <div class="col">
+                  <span id="upozorenjePoruka" class="formaGreska sakrij"></span><br>
+                  <textarea name="text" id="poruka" name="poruka" cols="40" rows="5" placeholder="Vaša poruka" required></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input type="button" id="submit" name="submit" value="Pošalji zahtev">
+                  <span id="uspehForma" class="poslataFormaText sakrij">Zahtev je uspešno poslat!</span>
+                </div>
+              </div> 
+            </form>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container" >
+      <div class="row">
+        <div class="col-md-3 footer-item">
+          <div class="d-flex align-items-start align-self-center">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/logo2.png" alt="Bootstrap" width="120" height="50">
+            </a>
+          </div> 
+        </div>
+        <div class="col-md-3 footer-item align-self-center">
+          <h4>Naši partneri</h4>
+        </div>
+        <div class="col-md-3 footer-item align-self-center">
+          <h4>Linkovi</h4>
+        </div>
+        <div class="col-md-3 footer-item last-item align-self-center">
+          <h4>Kontakt</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 footer-item">
+          <div id="opisF">
+            
+          </div>
+        </div>
+        <div class="col-md-3 footer-item">
+          <ul id="partneri" class="menu-list">
+            
+          </ul>
+        </div>
+        <div class="col-md-3 footer-item">
+          <ul id="linkovi" class="menu-list">
+            
+          </ul>
+        </div>
+        <div class="col-md-3 footer-item last-item">
+          <ul id="kontLista" class="menu-list">
+            <li class="font-size-14"><i class="fas fa-mobile-alt"></i>&nbsp; +381 62692 522</li>
+            <li class="font-size-14"><i class="fas fa-phone-volume"></i> &nbsp; 011 2634 624</li>
+            <li class="font-size-14"><i class="fa fa-envelope"></i>&nbsp; transporti@gmail.com</li>
+            <li class="font-size-14"><i class="fas fa-map-marker-alt"></i> &nbsp; Karadjordjeva 53, Beograd</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+  <div class="donji">Copyright © 2022 Jelena Simanić</div>
+  <button id="idiNaVrh">
+    <img src="assets/images/chevron (1).png" height="60" width="60" alt="">
+  </button>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/form.js"></script>
+</body>
+</html>
