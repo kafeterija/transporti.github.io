@@ -35,6 +35,10 @@ p{
 	padding: 0px;
 }
 
+.navbar-toggler{
+	background-color: rgb(59, 57, 57);
+}
+
 .nav-link::after {
 	content: '';
 	display: block;
