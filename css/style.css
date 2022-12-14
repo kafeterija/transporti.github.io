@@ -216,6 +216,7 @@ button{
 	height: 400px;
 	text-align: center;
 	padding: 30px;
+	margin-top: 20px;
 	background-color: lightblue;
 	border-radius: 8px;
 }
