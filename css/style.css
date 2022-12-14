@@ -70,7 +70,7 @@ p{
 
 .galerija {
 	background-color: rgb(249, 249, 249);
-	margin: 0px 12px;
+	margin: 0px;
 	padding: 0px;
 
 }
@@ -82,9 +82,7 @@ p{
 .container-gal{
 	position: relative;
 	overflow: hidden;
-	padding-bottom: 140px;
-	margin: 0px 12px;
-	padding: 30px;
+	padding-bottom: 60px;
 }
 
 .ispod{
