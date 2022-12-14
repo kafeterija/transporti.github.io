@@ -129,8 +129,8 @@ button{
 	position: relative;
 	left: -700px;
 	padding: 0px;
-	width: 48%;
-	margin: 0 1%;
+	width: 100%;
+	margin: 0;
 }
 
 #levo img{
@@ -143,8 +143,9 @@ button{
 	right: -700px;
 	background-color: rgb(249, 249, 249);
 	height: inherit;
-	width: 48%;
-	margin: 0 1%;	
+	width: 100%;
+	padding-bottom: 45px;
+	margin: 10px 0;	
 }
 
 #desno h2 {
