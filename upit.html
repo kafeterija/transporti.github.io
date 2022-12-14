@@ -45,17 +45,17 @@
             <div class="contact-form">
               <form name="forma" id="zahtev" action="" method="post">
                 <div class="row">
-                  <div class="col">
+                  <div class="col-md-6">
                     <span id="upozorenjeIme" class="formaGreska sakrij"></span><br>
                     <input type="text" id="ime" name="ime" placeholder="Ime i prezime" required>
                   </div>
-                  <div class="col">
+                  <div class="col-md-6">
                     <span id="upozorenjeEmail" class="formaGreska sakrij"></span><br>
                     <input type="text" id="email" name="email" placeholder="E-Mail adresa" required>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
+                  <div class="col-md-4">
                     <span id="upozorenjeTip" class="formaGreskaTip sakrij">Ovo polje je obavezno!</span><br>
                     <label class="radio-inline" for="kamion">
                       <input type="radio" id="kamion" name="tip" value="kamion" required>Kamion
@@ -64,7 +64,7 @@
                       <input type="radio" id="kombi" name="tip" value="kombi">Kombi
                     </label>
                   </div>
-                  <div class="col">
+                  <div class="col-md-4">
                     <span id="upozorenjeIz" class="formaGreska sakrij">Ovo polje je obavezno!</span><br>
                     <select id="iz" name="iz" required>
                       <option selected disabled>Polazak</option>    
@@ -74,7 +74,7 @@
                       <option value="slovenija">Slovenija</option>
                     </select>
                   </div>
-                  <div class="col">
+                  <div class="col-md-4">
                     <span id="upozorenjeZa" class="formaGreska sakrij">Ovo polje je obavezno!</span><br>
                     <select id="za" name="za" required>
                       <option selected disabled>Destinacija</option>
@@ -86,13 +86,13 @@
                   </div>
                 </div> 
                 <div class="row">
-                  <div class="col">
+                  <div class="col-md-12">
                     <span id="upozorenjePoruka" class="formaGreska sakrij"></span><br>
                     <textarea name="text" id="poruka" name="poruka" cols="40" rows="5" placeholder="Vaša poruka" required></textarea>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col">
+                  <div class="col-md-12">
                     <input type="button" id="submit" name="submit" value="Pošalji zahtev">
                     <span id="uspehForma" class="poslataFormaText sakrij">Zahtev je uspešno poslat!</span>
                   </div>
