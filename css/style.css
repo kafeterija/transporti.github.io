@@ -72,10 +72,17 @@ p{
 
 /* pocetna */
 
+.slike{
+	margin: 0 10px;
+}
+
+.tekst{
+	margin: 0 10px;
+}
+
 .galerija {
 	background-color: rgb(249, 249, 249);
-	margin: 0px;
-	padding: 0px;
+	padding: 0px 5px;
 
 }
 
