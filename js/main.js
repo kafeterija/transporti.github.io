@@ -320,7 +320,7 @@ const nazivPartner = [
 ];
 
 const linkPartner = [
-    'https://purelogistic.rs',
+    'https://purelogistics.rs/',
     'https://aofi.rs',
     'https://uniqa.rs',
     'https://fiat.rs/'
@@ -354,7 +354,7 @@ const linkLinkovi = [
     'oAutoru.html',
     'Robots.txt',
     'sitemap.xml',
-    '#'
+    'Dokumentacija.pdf'
 ]
 
 let linkLista = document.getElementById('linkovi');
